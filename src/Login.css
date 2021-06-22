@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+.Login-Container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Google-Login-btn{
+    display: flex;
+    font-family: 'Nerko One', cursive;
+    font-size: 2rem;
+    width:200px;
+    height:200px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ffffff6e;
+    color: #E96B61;
+    transition: 0.8s;
+}
+img{
+    width:50px;
+}
+.Google-Login-btn:hover{
+    transform: scale(2);
+    background-color: #ffffff;
+}
